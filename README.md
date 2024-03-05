@@ -1,2 +1,1 @@
-# neurovault.github.io
-Neurovault Blog
+# NeuroVault Blog
