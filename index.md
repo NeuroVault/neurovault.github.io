@@ -1,3 +1,1 @@
-# NeuroVault Updates Blog
 
-Test
