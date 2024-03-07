@@ -6,7 +6,8 @@ categories: updates
 
 by Alejandro de la Vega, Julio Peraza, Kendra Oudyk, Ross Blair
 
-TLDR: We need your help! We want to learn about why people use NeuroVault and how we can improve it to incentivize uploading, data re-use and keep up with changes in the field. NeuroVault is a community tool: please take a few minutes to tell what it should look like!
+!!! important ""
+We need your help! We want to learn about why people use NeuroVault and how we can improve it to incentivize uploading, data re-use and keep up with changes in the field. NeuroVault is a community tool: please take a few minutes to tell what it should look like!
 
 It's hard to believe, but it's been over 10 years since NeuroVault was first launched. 
 
