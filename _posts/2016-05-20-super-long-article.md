@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Celebrating A Decade of Sharing Brain Maps!"
+title: "A Decade of Openly Sharing Brain Maps!"
 categories: updates
 ---
 
-by Alejandro de la Vega, Julio Peraza, Kendra Oudyk, Ross Blair
+by Alejandro de la Vega
+
+*Special thanks to Julio Peraza, Kendra Oudyk and Ross Blair for data retrieval and analysis for this post.*
 
 **TLDR: We need your help! We want to learn about why people use NeuroVault and how we can improve it to incentivize uploading, data re-use and keep up with changes in the field. [Please take a few minutes to tell what it should look like](https://tally.so/forms/wLP2Oj)!**
 
@@ -28,7 +30,7 @@ The first image was uploaded to NeuroVault on June 6th, 2013, featuring the stat
 
 Since then, the number of collections uploaded to NeuroVault has steadily increased, reaching a peak in 2023 with 778 collections uploaded. Although only around 15% of collections of are associated with the DOI of a published article, this figure is dragged down by the most recent years (scientific articles are slow to be published) and incomplete meta-data which I'll come back to this later.
 
-![images_by_year](_images/01_collections_by_year.png)
+![images_by_year](./_images/01_collections_by_year.png)
 
 The number of images uploaded per year varies much more, reaching a peak in 2021 with 60,441 images. A majority of images are annotated using the Cognitive Atlas Ontology, for both Task and Contrast IDs (see the Cognitive Atlas website for more information), providing critical meta-data for subsequent re-use.
 
