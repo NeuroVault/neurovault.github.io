@@ -9,7 +9,11 @@ by Alejandro de la Vega
 
 *Special thanks to Julio Peraza, Kendra Oudyk and Ross Blair for data retrieval and analysis for this post.*
 
-**TLDR: We need your help! We want to learn about why people use NeuroVault and how we can improve it to incentivize uploading, data re-use and keep up with changes in the field. [Please take a few minutes to tell what it should look like](https://tally.so/forms/wLP2Oj)!**
+---
+
+**TLDR: We need your help!** We want to learn about how and why people use NeuroVault and how we can improve it to incentivize data sharing and re-use.
+
+[Please take a few minutes to tell what the future of NeuroVault should look like](https://tally.so/forms/wLP2Oj)!
 
 ---
 
