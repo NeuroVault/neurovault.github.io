@@ -67,7 +67,7 @@ Using full text neuroimaging articles on PubMedCentral as a representative sampl
 
 ![coords and coll by year](../images/00_coords_and_coll_by_year.png)
 
-Help us continue to increase NeuroVault use by sharing with your colleages, and taking a few minutes to share your ideas with us in [our survey](https://tally.so/forms/wLP2Oj). 
+Help us continue to increase NeuroVault use by sharing with your colleagues, and taking a few minutes to share your ideas with us in [our survey](https://tally.so/forms/wLP2Oj). 
 
 ### Linking NeuroVault data to scientific knowledge
 
@@ -99,7 +99,7 @@ But, is this representative of the literature at large? To answer this question,
 
 Unsurprisingly, working memory is the most studied topic in both samples. It also seems that many commonly studies topics are well represented in NeuroVault.
 
-However, many popular topics from the general literature seem to be under-represented in NeuroVault. In particular, topics related to "depression", "epilespy", "recovery", "ms" as well as other clinically relevant terms are under-represented. This indicates we can do a better job as basic science researchers in reaching out to clinical researchers, to ensure they contribute their valuable data to open access repositories, such as NeuroVault.
+However, many popular topics from the general literature seem to be under-represented in NeuroVault. In particular, topics related to "depression", "epilepsy", "recovery", "ms" as well as other clinically relevant terms are under-represented. This indicates we can do a better job as basic science researchers in reaching out to clinical researchers, to ensure they contribute their valuable data to open access repositories, such as NeuroVault.
 
 ### Is NeuroVault data *re-used*?
 
@@ -109,9 +109,9 @@ To answer this, we again looked at a representative sample of published neuroima
 
 By this measure, a respectable ~23% of collections with a DOI were mentioned more than once!
 
-If we look at the most re-used images, we find that these are often atlases, rather than statistical maps. Congratuations to XXXX for being the most re-used collection on NeuroVault!
+If we look at the most re-used images, we find that these are often atlases, rather than statistical maps. Congratulations to XXXX for being the most re-used collection on NeuroVault!
 
-However, it's also clear that there is much more potential for re-use than we are currently achieving. For example, although NeuroVault has [built in capacity for image-based meta-analysis](https://neurovault.org/my_metaanalyses/new) it has been seldum used, presumably due to the difficulting in finding relevant images. 
+However, it's also clear that there is much more potential for re-use than we are currently achieving. For example, although NeuroVault has [built in capacity for image-based meta-analysis](https://neurovault.org/my_metaanalyses/new) it has been seldom used, presumably due to the difficulties in finding relevant images. 
 
 If you're interested in performing an image-based meta-analysis, let me make a shameless plug for [NeuroSynth Compose](compose.neurosynth.org), the latest iteration of our open platform for large-scale meta-analysis. We are actively working on a web-based interface for image-based meta-analysis using NeuroVault data, which we hope to release in the coming months!
 
