@@ -2,7 +2,7 @@
 layout: post
 title: "A Decade of Openly Sharing Brain Maps!"
 categories: updates
-date: 2023-05-20
+date: 2024-03-07
 ---
 
 by Alejandro de la Vega
