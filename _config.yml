@@ -11,5 +11,7 @@ relative_links:
   collections: true
 remote_theme: jekyll/minima
 
+google_analytics: G-GVDQPHEWST
+
 include:
   - images
