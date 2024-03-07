@@ -37,92 +37,94 @@ The first image was uploaded to NeuroVault on June 6th, 2013, featuring the stat
 
 Since then, the number of collections uploaded to NeuroVault has steadily increased, reaching a peak in 2023 with 778 collections uploaded. Although only around 15% of collections of are associated with the DOI of a published article, this figure is dragged down by the most recent years (scientific articles are slow to be published) and incomplete meta-data which I'll come back to this later.
 
-![images_by_year](../images/01_collections_by_year.png)
+![collections_by_year](../images/01_collections_by_year.png)
 
 The number of images uploaded per year varies much more, reaching a peak in 2021 with 60,441 images. A majority of images are annotated using the Cognitive Atlas Ontology, for both Task and Contrast IDs (see the Cognitive Atlas website for more information), providing critical meta-data for subsequent re-use.
 
-(Images Plot)
+![images_by_year](../images/03_images_by_year.png)
 
 Unsurprisingly, the vast majority of images of NeuroVault are "fMRI-BOLD", with other modalities comprising a small minority. Perhaps future iterations of NeuroVault should increase outreach to other neuroimaging communities. 
 
-(Modality plot)
-
-(what are the other modalities?)
+![modalities](../images/07_images_by_maptype.png)
 
 In keeping with the spirit of NeuroVault, around 3/4 uploaded images are unthresholded, meaning the full richness of the data is maintained. Similarly, over 3/4 of images in NeuroVault are statistical maps (Z or T), with other types of images (such as variance and effect maps), making up a smaller proportion.
 
 Somewhat surprisingly, 88% of images in NeuroVault are from individual subjects, with only 10% of images corresponding to group-level maps. 
 
-(single vs group map)
+![singlev_group](../images/08_images_by_analysis.png)
 
 However, this is mostly driven by a few rather large collections. Looking only at 2,240 collections associated with a DOI and sufficient met-data, 190 collections have single subject data while have 1844 group-level data.
 
 (pie chart, type of images) 
 
-Speaking of large collections, the award for largest collection on NeuroVault associated with a published article goes to ["Brain topography beyond parcellations: Local gradients of functional maps"](https://neurovault.org/collections/16103/) by Dohmatob et al. (2021). This collection features a staggering 29,464 images. Impresive!
+Speaking of large collections, the award for largest collection on NeuroVault associated with a published article goes to ["Brain topography beyond parcellations: Local gradients of functional maps"](https://neurovault.org/collections/16103/) by Dohmatob et al. (2021). This collection features a staggering 29,464 images. Impressive!
 
 ### Increasing NeuroVault adoption
 
-At this point, you might be under the impression that NeuroVault is unequivocally a success. Although, the longevity of the platform is certainly impressive, there is much progress to be made. 
+At this point, you might be under the impression that NeuroVault is unequivocally a success. Although, the activity of the platform is certainly impressive, there is much progress to be made. 
 
 Using full text neuroimaging articles on PubMedCentral as a representative sample, we find that although the proportion of studies using NeuroVault to share their data has increased year to year, a large proportion of studies continue to only report peak coordinates in a table, limiting the potential re-use of their valuable data in the future!
 
-(time plot)
+![coords and coll by year](../images/00_coords_and_coll_by_year.png)
 
-Please remember to continue to share NeuroVault with your colleages, and share ideas you might have for increasing NeuroVault adoption in our survey!
+Help us continue to increase NeuroVault use by sharing with your colleages, and taking a few minutes to share your ideas with us in [our survey](https://tally.so/forms/wLP2Oj). 
 
 ### Linking NeuroVault data to scientific knowledge
 
-To truly understand what is uploaded NeuroVault, it helps to link published articles to the collections that contain the relevant data. However, a surprisingly small proportion of collections are ultimately linked to publications. 
+To truly understand what is uploaded to NeuroVault, it helps to link published articles to the collections that contain the relevant data. 
 
-This is part due to the fact that most users upload data to NeuroVault prior to submitting their articles, and must remember to go back and tag their collection with the final DOI. Indeed, the average time between when a collection is created and ultimately linked with a DOI is 154 days, with some collections taking over 4 years to get a DOI! Unfortunately, this sometimes never happens. 
+However, a surprisingly small proportion of collections are ultimately linked to publications, in large part because most users upload data to NeuroVault prior to peer review, meaning they must must remember to go back and tag their collection with the final publication DOI. 
 
-(time histogram)
+Indeed, the average time between when a collection is created and ultimately linked with a DOI is 154 days, with some collections taking over 4 years to get a DOI! Unfortunately, this sometimes never happens. 
 
-Using a couple tricks, however, we can infer the most likely article to be associated with  collections. By searching PubMed for NeuroVault titles, and searching full text literature for NeuroVault links, we're able to link several hundred more collections, increasing the number of collections with a DOI to XXX (~25%)! 
+![Time historgram](../images/time_hist.png)
 
-This is likely an underestimate, since we don't have access to the entirety of the neuroimaging literature to find all possible NeuroVault links. In the future, it may be helpful to automatically remind users to link their collections with published articles after some time has passed.
+Using a couple tricks, however, we can infer the most likely article to be associated with a collection. By searching PubMed for NeuroVault titles, and searching full text of published articles for NeuroVault links, we're able to link several hundred more collections, increasing the number of collections with a DOI to XXX (~25%)! 
+
+![Linking collections with DOIs](../images/11_collections_pmid.png)
+
+This is likely an underestimate, but suggests a substantial proportion of uploads go on to be published. 
 
 ### Is NeuroVault data representative of the literature?
 
-Now that we have linked as many collections to DOIs as possible, we can ask: what type of studies are uploaded to NeuroVault?
+Now that we have linked as many collections to DOIs as possible, we can ask: **what cognitive concepts do articles on NeuroVault study?**
 
-(word cloud)
+![Word cloud](../images/09_cogat_count.png)
 
 Just from looking at the most commonly used words in articles in NeuroVault, we can that a wide variety of topics are covered, with working memory being the most commonly studies subject.
 
-But, is this representative of the literature at large? To answer this question, we can compare the distribution of topics derive using a larger sample of fMRI literature (XXX studies, obtained using Pubget), and comparing the number of studies that load onto each topic from a larger sample and the NeuroVault sample.
+But, is this representative of the literature at large? To answer this question, we can compare the distribution of topics derived using a larger sample of fMRI literature (XXX studies from PubMedCentral), and compare the number of NeuroVault collections that load onto each topic.
 
-(Kendra plot)
+![topic distribution](../images/2b_barchart_topics_fmri-vs-neurovault.png)
 
-Unsurprisingly, working memory is the most studied topic in both samples. Generally, it also seems that many well-studies topics are represented in NeuroVault.
+Unsurprisingly, working memory is the most studied topic in both samples. It also seems that many commonly studies topics are well represented in NeuroVault.
 
-However, many commonly studies topics seem to be under-represented relatively to the literature. In particular, topics related to "depression", "epilespy", "recovery", "ms" and many other clinically relevant terms are under-represented in NeuroVault relative to the broader fMRI literature. This potentially indicates we can do a better job as basic science researchers in reaching out to clinical researchers, to ensure they contribute their valuable data to open access repositories, such as NeuroVault.
+However, many popular topics from the general literature seem to be under-represented in NeuroVault. In particular, topics related to "depression", "epilespy", "recovery", "ms" as well as other clinically relevant terms are under-represented. This indicates we can do a better job as basic science researchers in reaching out to clinical researchers, to ensure they contribute their valuable data to open access repositories, such as NeuroVault.
 
 ### Is NeuroVault data *re-used*?
 
-The main goal of the NeuroVault project was not simply to gather as many statistical maps as possible for fun. The critical point of this project is to facilitate access to this valuable data to enable new downstream meta-scientific use cases, such as large-scale image-based meta-analysis and ROI creation.
+A core goal of NeuroVault is to enable the re-use of uploaded data in downstream meta-scientific use cases, such as large-scale image-based meta-analysis and ROI creation. Have we achieved this goal?
 
-To estimate data re-use, we again looked at a representative sample of published neuroimaging studies, and tried to find collections which were mentioned at least *twice* in the literature. Presumably, collections and images with multiple mentions were used in subsequent studies in some capacity. 
+To answer this, we again looked at a representative sample of published neuroimaging studies, and looked for NeuroVault collections which were mentioned at least *twice* in the literature. Presumably, collections and images with multiple mentions were used in at least one study beyond the original publication. 
 
-By this measure, ~23% of collections with a DOI were mentioned more than once, indicating that a respectable number of uploads are indeed re-used.
+By this measure, a respectable ~23% of collections with a DOI were mentioned more than once!
 
 If we look at the most re-used images, we find that these are often atlases, rather than statistical maps. Congratuations to XXXX for being the most re-used collection on NeuroVault!
 
-However, it's also clear that there is much more potential for re-use than we are currently achieving. For example, NeuroVault has built in capacity for image-based meta-analysis which has been used seldom, presumably because identifying relevant images for a manual meta-analysis is extremely challenging. 
+However, it's also clear that there is much more potential for re-use than we are currently achieving. For example, although NeuroVault has [built in capacity for image-based meta-analysis](https://neurovault.org/my_metaanalyses/new) it has been seldum used, presumably due to the difficulting in finding relevant images. 
 
-If you're interested in performing an image-based meta-analysis, let me make a shameless plug for NeuroSynth Compose, the latest iteration of our open platform for large-scale meta-analysis. We are actively working on a web-based interface for image-based meta-analysis using NeuroVault data, which we hope to release in the coming months!
+If you're interested in performing an image-based meta-analysis, let me make a shameless plug for [NeuroSynth Compose](compose.neurosynth.org), the latest iteration of our open platform for large-scale meta-analysis. We are actively working on a web-based interface for image-based meta-analysis using NeuroVault data, which we hope to release in the coming months!
 
-Also, don't hesitate to reach out to the NeuroVault if you need help accessing the data. We are happy to help!
+Also, if you need help accessing NeuroVault data, don't hesitate to reach out!
 
 ## You turn: help guide the future of NeuroVault
 
-Overall, for a relatively simple application, NeuroVault has gained remarkable traction in the neuroimaging field. 
+Overall, for a relatively simple application, NeuroVault has gained remarkable traction in the neuroimaging field, and continues to be used to this date, spanning an impressive amount of neuroimaging statistical maps.
 
 But, as I hope you appreciate now, there is much work to be done to increase NeuroVault adoption and the re-use of this valuable data.
 
-Be share to share your thoughts with us using our survey, and be sure to reach out directly to us with any constructive ideas. 
+To help with this effort, please share your thoughts with us [using our survey](https://tally.so/forms/wLP2Oj), and don't hesitate to get in contact.
 
-Let's make sure the next decade of open neuroimaging data sharing is even more successful than the last.
+Let's make sure the next decade of open neuroimaging data sharing is even more successful than the last!
 
 
