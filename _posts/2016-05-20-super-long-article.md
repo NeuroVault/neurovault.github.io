@@ -1,13 +1,8 @@
 ---
 layout: post
-title: "NeuroVault: A Decade of Sharing Brain Maps!"
+title: "Celebrating A Decade of Sharing Brain Maps!"
 categories: updates
 ---
-
-Over a decade ago, NeuroVault launched as a groundbreaking platform for the neuroimaging community. Founded by Chris Gorgolewski, the vision was simple yet powerful: create a central hub for researchers to openly store and share unthresholded statistical maps, parcellations, and atlases generated through MRI and PET studies.
-
-Today, NeuroVault stands as a testament to the power of open science.
-## NeuroVault: A Decade of Sharing Brain Maps!
 
 by Alejandro de la Vega, Julio Peraza, Kendra Oudyk, Ross Blair
 
