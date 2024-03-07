@@ -9,4 +9,4 @@ header_pages:
 relative_links:
   enabled: true
   collections: true
-theme: jekyll-theme-minima
+remote_theme: jekyll/minima
