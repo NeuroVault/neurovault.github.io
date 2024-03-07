@@ -28,8 +28,7 @@ The first image was uploaded to NeuroVault on June 6th, 2013, featuring the stat
 
 Since then, the number of collections uploaded to NeuroVault has steadily increased, reaching a peak in 2023 with 778 collections uploaded. Although only around 15% of collections of are associated with the DOI of a published article, this figure is dragged down by the most recent years (scientific articles are slow to be published) and incomplete meta-data which I'll come back to this later.
 
-
-(Collection plot)
+![images_by_year](_images/01_collections_by_year.png)
 
 The number of images uploaded per year varies much more, reaching a peak in 2021 with 60,441 images. A majority of images are annotated using the Cognitive Atlas Ontology, for both Task and Contrast IDs (see the Cognitive Atlas website for more information), providing critical meta-data for subsequent re-use.
 
@@ -41,15 +40,17 @@ Unsurprisingly, the vast majority of images of NeuroVault are "fMRI-BOLD", with 
 
 (what are the other modalities?)
 
-In keeping with the spirit of NeuroVault, 78% of uploaded images are unthresholded, meaning the full richness of the data is maintained. Similarly, over 3/4 of images in NeuroVault are statistical maps (Z or T), with other types of images (such as variance and effect maps), making up a smaller proportion.
+In keeping with the spirit of NeuroVault, around 3/4 uploaded images are unthresholded, meaning the full richness of the data is maintained. Similarly, over 3/4 of images in NeuroVault are statistical maps (Z or T), with other types of images (such as variance and effect maps), making up a smaller proportion.
 
 Somewhat surprisingly, 88% of images in NeuroVault are from individual subjects, with only 10% of images corresponding to group-level maps. 
 
 (single vs group map)
 
-However, this is mostly driven by a few rather large collections. Only XXX% of collections include single subject images, while XXX% of collections include group-level images. 
+However, this is mostly driven by a few rather large collections. Looking only at 2,240 collections associated with a DOI and sufficient met-data, 190 collections have single subject data while have 1844 group-level data.
 
-Speaking of large collections, the award for largest collection on NeuroVault (not uploaded by Chis G) goes to ["Functional connectivity in the social brain across childhood and adolescence"](https://neurovault.org/collections/2606/) by Ethan M McCormick. Nicely done!
+(pie chart, type of images) 
+
+Speaking of large collections, the award for largest collection on NeuroVault associated with a published article goes to ["Brain topography beyond parcellations: Local gradients of functional maps"](https://neurovault.org/collections/16103/) by Dohmatob et al. (2021). This collection features a staggering 29,464 images. Impresive!
 
 ### Increasing NeuroVault adoption
 
