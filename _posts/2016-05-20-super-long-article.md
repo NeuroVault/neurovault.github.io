@@ -6,20 +6,19 @@ categories: updates
 
 by Alejandro de la Vega, Julio Peraza, Kendra Oudyk, Ross Blair
 
-!!! important ""
-We need your help! We want to learn about why people use NeuroVault and how we can improve it to incentivize uploading, data re-use and keep up with changes in the field. NeuroVault is a community tool: please take a few minutes to tell what it should look like!
+**TLDR: We need your help! We want to learn about why people use NeuroVault and how we can improve it to incentivize uploading, data re-use and keep up with changes in the field. [Please take a few minutes to tell what it should look like](https://tally.so/forms/wLP2Oj)!**
 
 It's hard to believe, but it's been over 10 years since NeuroVault was first launched. 
 
 In 2013, at the [Neurosynth Hackathon](https://web.archive.org/web/20131202224713/http://hackathon.neurosynth.org/) in Boulder, Colorado, Chris Gorgolewski furiously typed away at his laptop, and three days later with the help of lots of coffee and Tal Yarkoni's ever watchful gaze, NeuroVault was born! 
 
-The mission from the beginning was simple: to provide a place where researchers can publicly store and share unthresholded statistical maps, parcellations, and atlases produced by MRI and PET studies. 
+The mission was simple: to provide a place where researchers can publicly store and share unthresholded statistical maps, parcellations, and atlases produced by MRI and PET studies. 
 
-The reason? Neuroimaging studies are very costly, yet they are often underpowered, and statistical results are summarized into static figures and thresholded peak coordinates buried in articles, discarding a wide range of valuable information. Although the field of neuroimaging has significantly advanced since 2013--with notably larger *and* deeper samples becoming more common-- the core mission of NeuroVault to enable public sharing of neuroimaging results remains equally relevant.
+*The reason?* Neuroimaging studies are expensive, but they're often underpowered, and statistical results are summarized into static figures and thresholded peak coordinates buried in articles, discarding a wide range of valuable information. Although the field of neuroimaging has significantly advanced since 2013--with notably larger *and* deeper samples becoming more common-- the core mission of NeuroVault to enable public sharing of neuroimaging results remains equally relevant.
 
-As an attendee of that hackathon in Boulder (in fact, it was my very first one!), I'm happy to say that nearly 11 years later, **NeuroVault is very much alive and well**. NeuroVault is visited by *nearly 30,000 users a year*, and boasts a *staggering 269,934 images!* contributed by 3,216 unique users! Today, NeuroVault is sustained through collaborative community efforts spearheaded by Russ Poldrack's lab, with Ross Blair as the primary maintainer. 
+As an attendee of that hackathon in Boulder (in fact, it was my very first one!), I'm happy to say that nearly 11 years later, **NeuroVault is very much alive and well**. NeuroVault is visited by *nearly 30,000 users a year*, and boasts a *staggering 269,934 images* contributed by 3,216 unique users!
 
-At this point, it's important to ask in what ways NeuroVault has succeeded and failed, and how we can continue to improve the platform to maximize its impacts that it remains abreast of changes in the field and useful to researchers for another decade. Please take our short survey to share your thoughts on what the future of NeuroVault should look like!
+I want to take some time to dive into this wealth of data to understand it, and ask *in what ways NeuroVault has succeeded, and how we can continue to improve the platform to make sure the next decade of data sharing is even better than the last*.
 
 Now let's dive into some numbers!
 
@@ -52,7 +51,7 @@ However, this is mostly driven by a few rather large collections. Only XXX% of c
 
 Speaking of large collections, the award for largest collection on NeuroVault (not uploaded by Chis G) goes to ["Functional connectivity in the social brain across childhood and adolescence"](https://neurovault.org/collections/2606/) by Ethan M McCormick. Nicely done!
 
-## Increasing NeuroVault adoption
+### Increasing NeuroVault adoption
 
 At this point, you might be under the impression that NeuroVault is unequivocally a success. Although, the longevity of the platform is certainly impressive, there is much progress to be made. 
 
@@ -62,7 +61,7 @@ Using full text neuroimaging articles on PubMedCentral as a representative sampl
 
 Please remember to continue to share NeuroVault with your colleages, and share ideas you might have for increasing NeuroVault adoption in our survey!
 
-## Understanding NeuroVault data, by linking to scientific knowledge
+### Linking NeuroVault data to scientific knowledge
 
 To truly understand what is uploaded NeuroVault, it helps to link published articles to the collections that contain the relevant data. However, a surprisingly small proportion of collections are ultimately linked to publications. 
 
@@ -73,6 +72,7 @@ This is part due to the fact that most users upload data to NeuroVault prior to 
 Using a couple tricks, however, we can infer the most likely article to be associated with  collections. By searching PubMed for NeuroVault titles, and searching full text literature for NeuroVault links, we're able to link several hundred more collections, increasing the number of collections with a DOI to XXX (~25%)! 
 
 This is likely an underestimate, since we don't have access to the entirety of the neuroimaging literature to find all possible NeuroVault links. In the future, it may be helpful to automatically remind users to link their collections with published articles after some time has passed.
+
 ### Is NeuroVault data representative of the literature?
 
 Now that we have linked as many collections to DOIs as possible, we can ask: what type of studies are uploaded to NeuroVault?
@@ -105,7 +105,7 @@ If you're interested in performing an image-based meta-analysis, let me make a s
 
 Also, don't hesitate to reach out to the NeuroVault if you need help accessing the data. We are happy to help!
 
-## You turn: guide the future of NeuroVault
+## You turn: help guide the future of NeuroVault
 
 Overall, for a relatively simple application, NeuroVault has gained remarkable traction in the neuroimaging field. 
 
