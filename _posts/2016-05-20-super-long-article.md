@@ -2,6 +2,7 @@
 layout: post
 title: "A Decade of Openly Sharing Brain Maps!"
 categories: updates
+date: 2023-05-20
 ---
 
 by Alejandro de la Vega
@@ -9,6 +10,8 @@ by Alejandro de la Vega
 *Special thanks to Julio Peraza, Kendra Oudyk and Ross Blair for data retrieval and analysis for this post.*
 
 **TLDR: We need your help! We want to learn about why people use NeuroVault and how we can improve it to incentivize uploading, data re-use and keep up with changes in the field. [Please take a few minutes to tell what it should look like](https://tally.so/forms/wLP2Oj)!**
+
+---
 
 It's hard to believe, but it's been over 10 years since NeuroVault was first launched. 
 
